@@ -2,7 +2,7 @@
 
 This examples is a example of three.js game as native application
 
-- the idea came from @Nazariglez in this [tweet](https://twitter.com/Nazariglez/status/591915046151815169).
+- the idea came from [@Nazariglez](https://twitter.com/Nazariglez) in this [tweet](https://twitter.com/Nazariglez/status/591915046151815169).
   A nice guy, be sure to check it out!
 
 - i loved the idea and tried to reproduce it
