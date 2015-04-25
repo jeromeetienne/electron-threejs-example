@@ -29,14 +29,14 @@ This examples is a example of three.js game as native application
 To make it appear nicer, we can try to make the window background transparent and not display the window frame.
 This will give a nice floating effect to the 3d.
 
-###First modify this in electron main.js
+* First modify this in electron main.js
 
 ```javascript
 //mainWindow = new BrowserWindow({width: 800, height: 600});
 mainWindow = new BrowserWindow({width: 800, height: 600, transparent: true, frame: false});
 ```
 
-Second, be sure to make the body background transparent 
+* Second, be sure to make the body background transparent 
 
 ```css
 body { 
@@ -44,7 +44,7 @@ body {
 }
 ```
 
-Then tell three.js to stay transparent too
+* Then tell three.js to stay transparent too
 
 ```javascript
 renderer = new THREE.WebGLRenderer( { antialias: false, alpha : true } );
