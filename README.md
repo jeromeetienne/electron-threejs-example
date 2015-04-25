@@ -44,7 +44,7 @@ body {
 }
 ```
 
-* Then tell three.js to stay transparent too
+* Then tell three.js to stay transparent too. just set ```alpha``` and the clear color.
 
 ```javascript
 renderer = new THREE.WebGLRenderer( { antialias: false, alpha : true } );
