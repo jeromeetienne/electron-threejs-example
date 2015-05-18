@@ -8,12 +8,12 @@ You can use that to easily write 3d games with ease of three.js coding and still
 
 So first what is *electron* ?
 This is the new name of *atom-shell*.
-It is all explained [in this post on atom blog](http://blog.atom.io/2015/04/23/electron.html).
+It is has been introduced [in this post on atom blog](http://blog.atom.io/2015/04/23/electron.html).
 It is the 'plateform' under which [atom editor](https://atom.io/) is running.
 It is a very new way to build native application.
-Under the hood, electron is running chromium and node.js. 
+Under the hood, electron is running chromium and node.js.
 To get more information, checkout [electron's homepage](http://electron.atom.io/).
-It short, it is an easy way to write desktop apps with web technology. 
+It short, it is an easy way to write desktop apps with web technology.
 
 Now Let's see how we can mix with three.js :)
 
@@ -39,12 +39,12 @@ mainWindow = new BrowserWindow({width: 800, height: 600, transparent: true, fram
 Second, be sure to make the body background transparent with css.
 
 ```css
-body { 
+body {
   background-color: rgba(0,0,0,0);
 }
 ```
 
-Then tell three.js to stay transparent too. 
+Then tell three.js to stay transparent too.
 Just set ```alpha``` and the clear color.
 
 ```javascript
